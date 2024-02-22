@@ -1,9 +1,29 @@
 import "./App.css";
+import contact from "./contacts.json" 
+
 
 function App() {
+  const[contacts,setContacts]= useState(contact);
   return (
     <div className="App">
-      <h1>LAB | React IronContacts</h1>
+      <table>
+        <tr>
+            <th>contacts.picture</th>
+            
+        </tr>
+        <tr>
+            <td>contacts.name</td>
+            
+        </tr>
+        <tr>
+            <td>contacts.popularity</td>
+            
+        </tr>
+        <tr>
+            <td></td>
+           
+        </tr>
+    </table>
     </div>
   );
 }
