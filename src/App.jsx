@@ -15,10 +15,10 @@ function App() {
             <td>contacts.name</td>
             
         </tr>
-        <tr>
-            <td>contacts.popularity</td>
+        {contacts.winEmmy && <tr>
+            <td>contacts.winEmmy</td>
             
-        </tr>
+        </tr>}
         <tr>
             <td></td>
            
