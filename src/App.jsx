@@ -21,7 +21,7 @@ function App() {
         </tr>}
         <tr>
             <td>contacts.winEmmy</td>
-           
+            <td>contacts.winEmmy</td>
         </tr>
     </table>
     </div>
